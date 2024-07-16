@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Restaurant</title>
+<title>Study with me</title>
 </head>
 <body>
 Hello world

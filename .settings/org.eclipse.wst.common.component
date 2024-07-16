@@ -7,9 +7,9 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
                 
         <wb-resource deploy-path="/" source-path="/src/main/java/com/se4f7/prj301/webapp/web-resources"/>
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/java/com/se4f7/prj301/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/webapp"/>
                         
         
         <property name="java-output-path" value="/Restaurant/build/classes"/>
