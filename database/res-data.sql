@@ -60,19 +60,19 @@ CREATE TABLE IF NOT EXISTS `dishs` (
 );
 
 CREATE TABLE IF NOT EXISTS `orders` (
-	`id` BIGINT AUTO_INCREMENT,
-	`name` VARCHAR(255) NOT NULL,
-	`email` VARCHAR(255) NOT NULL,
-	`phone` VARCHAR(255) NOT NULL,
-	`dateOrder` DATETIME,
-	`customerQuantity VARCHAR(255) NOT NULL,
-	`message` TEXT,
-	`createdDate` DATETIME DEFAULT CURRENT_TIMESTAMP,
-	`updatedDate` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	`createdBy` VARCHAR(255) DEFAULT NULL,
-	`updatedBy` VARCHAR(255) DEFAULT NULL,
-	`status` ENUM("Approved", "Rejected", "Pending") DEFAULT 'Pending',
-	PRIMARY KEY(`id`)
+    `id` BIGINT AUTO_INCREMENT,
+    `name` VARCHAR(255) NOT NULL,
+    `email` VARCHAR(255) NOT NULL,
+    `phone` VARCHAR(255) NOT NULL,
+    `dateOrder` DATETIME,
+    `customerQuantity` VARCHAR(255) NOT NULL,
+    `message` TEXT,
+    `createdDate` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `updatedDate` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `createdBy` VARCHAR(255) DEFAULT NULL,
+    `updatedBy` VARCHAR(255) DEFAULT NULL,
+    `status` ENUM("Approved", "Rejected", "Pending") DEFAULT 'Pending',
+    PRIMARY KEY (`id`)
 );
 
 CREATE TABLE IF NOT EXISTS `web_setting` (
